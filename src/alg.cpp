@@ -37,7 +37,7 @@ uint64_t nNum = 0;
 uint64_t res = 2;
         while (res != hbound) {
                 if (checkPrime(res) == true)
-                        nNum += result;
+                        nNum += res;
                 res++;
         }
         return nNum;
